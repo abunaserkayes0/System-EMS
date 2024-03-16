@@ -1,7 +1,7 @@
 // components/TabsPage.tsx
 "use client";
 import React, { useState } from "react";
-import { Table, Form, Checkbox, Modal } from "antd";
+import { Table, Form, Checkbox, Modal, Input } from "antd";
 import { useForm, Controller } from "react-hook-form";
 import { Tabs } from "antd";
 import {
@@ -66,7 +66,7 @@ const FormItem = ({
       <Form.Item
         label={label}
         validateStatus={field ? "error" : undefined}
-        help={field ? field?.message : undefined}
+        // help={field ? field?.message : undefined}
       >
         <Input {...field} placeholder={placeholder} />
       </Form.Item>

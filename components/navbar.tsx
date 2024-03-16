@@ -61,7 +61,7 @@ const items: MenuProps["items"] = [
       {
         label: (
           <Link href="/student_list" rel="noopener noreferrer">
-            Student's List
+            Students List
           </Link>
         ),
 
@@ -70,7 +70,7 @@ const items: MenuProps["items"] = [
       {
         label: (
           <Link href="teacher_list" rel="noopener noreferrer">
-            Teacher's List
+            Teachers List
           </Link>
         ),
         key: "teacherList",
